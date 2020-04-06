@@ -31,21 +31,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.6"
-        android:src=""
-        android:id="@+id/imageView"/>
+        android:id="@+id/imageView"
+        android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
-        android:background="#00BCD4"
-        android:id="@+id/textViewNombre"/>
+        android:background="#9EEEF6"
+        android:id="@+id/textViewNombre"
+        android:text="Nombre"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Descubrir"
-        android:layout_weight="0.05"/>
+        android:layout_weight="0.05"
+        android:id="@+id/buttonDescubrir"/>
 
 
 
